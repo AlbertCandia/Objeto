@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Josefin+Sans:ital,wght@0,400;1,200&display=swap');
+
+body {
+  background: #1b48ab;
+  background: -webkit-linear-gradient(left, #b02222, #b14242);
+  background: -moz-linear-gradient(left, #b02222, #b14242);
+  background: linear-gradient(to right, #b02222, #b14242);
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
+.titulo {
+  text-align: center;
+  color: rgb(218, 175, 96);
+  padding: 30px;
+}
+h1 {
+  font-size: 3rem;
+  font-family: cursive;
+}
+h1 + p {
+  font-family: sans-serif;
+  font-weight: 200;
+  font-style: oblique;
+}
+
+main {
+  margin: 0px;
+  padding-bottom: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-carta {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+  height: 600px;
+  border: 0px;
+}
+
+.titulob {
+  text-align: center;
+  font-size: 18rem;
+  color: rgb(67, 54, 32);
+}
+.name {
+  text-align: center;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.descripcion {
+  padding-top: 10px;
+  font-family: sans-serif;
+}
+li {
+  list-style: square;
+}
+.card-body {
+  color: rgb(8, 5, 0);
+}
+
+.btn-dark {
+  align-self: center;
+  border-radius: 0px;
+  border-color: rgb(21, 21, 21);
+  margin-bottom: 20px;
+}
+.img {
+  position: relative;
+  z-index: 1;
+}
+.cierre {
+  width: 30px;
+  align-self: flex-end;
+  border-radius: 5px 0px 0px 0px;
+  border: 0px;
+  font-size: x-small;
+  background-color: rgb(17, 16, 15);
+  position: absolute;
+  z-index: 2;
+  left: 0px;
+  top: 0px;
+}
+
+.pie {
+  text-align: center;
+  font-size: x-small;
+  color: rgb(13, 13, 12);
+}
